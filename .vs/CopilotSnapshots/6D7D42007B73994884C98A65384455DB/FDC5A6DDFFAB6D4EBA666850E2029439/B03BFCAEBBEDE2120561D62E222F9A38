@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal portfolio website for a web development student.">
+  <title>Chris Palmer | Web Development Student</title>
+  <!-- Material Symbols provides the small icons used in the navigation. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- The header contains the site name and the main navigation. -->
+  <header class="site-header">
+    <div class="container navigation">
+      <a class="logo" href="#top">Chris Palmer</a>
+      <nav aria-label="Main navigation">
+        <a href="#about"><span class="material-symbols-outlined" aria-hidden="true">person</span>About</a>
+        <a href="#languages"><span class="material-symbols-outlined" aria-hidden="true">code</span>Languages</a>
+        <a href="#school"><span class="material-symbols-outlined" aria-hidden="true">school</span>School</a>
+        <a href="#hobbies"><span class="material-symbols-outlined" aria-hidden="true">interests</span>Hobbies</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- The hero section introduces you and points visitors to your work. -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Web development student</p>
+          <h1>Learning, building, and sharing my journey.</h1>
+          <p class="intro">Welcome to my personal website. This is where I will collect the projects I create during my web development course.</p>
+          <a class="button" href="#projects">See my projects <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+        </div>
+        <div class="profile-frame">
+          <img class="profile-image" src="img/chris_devils_tower.jpg" alt="A portrait of Chris Palmer at Devils Tower in Wyoming">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">A little about me</p>
+        <h2>About Me</h2>
+        <p class="section-intro">I am a professional who works in IT for the University of Utah. I already make minor changes for my departments website, but I want to learn new skills to enhance my capabilities.</p>
+        <P class="section-intro">I am also creating my own website to help myself and others learn Arabic. I plan to use the skills from this class to make it more visually appealing and build games that foster learning.</P>
+      </div>
+    </section>
+
+    <section class="section section-light" id="languages">
+      <div class="container">
+        <p class="eyebrow">What I am learning</p>
+        <h2>Languages</h2>
+        <div class="card-row">
+          <article class="info-card html-card">
+            <span class="card-number">01</span>
+            <h3>HTML</h3>
+            <p>I use HTML to give each page a clear structure and meaning.</p>
+          </article>
+          <article class="info-card css-card">
+            <span class="card-number">02</span>
+            <h3>CSS</h3>
+            <p>I use CSS to create layouts, colors, and a friendly visual style.</p>
+          </article>
+          <article class="info-card javascript-card">
+            <span class="card-number">03</span>
+            <h3>JavaScript</h3>
+            <p>I am beginning to learn how to make websites interactive.</p>
+          </article>
+          <article class="info-card arabic-card">
+            <span class="card-number">04</span>
+            <h3>Arabic</h3>
+            <p>I can communicate in Arabic and continue to build my language skills.</p>
+          </article>
+          <article class="info-card spanish-card">
+            <span class="card-number">05</span>
+            <h3>Spanish</h3>
+            <p>I am fluent in Spanish and love speaking with others.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="school">
+      <div class="container split-section">
+        <div>
+          <p class="eyebrow">My education</p>
+          <h2>School</h2>
+          <p class="section-intro">My major is Middle Eastern Studies with an emphasis on Arabic language and culture. I am taking a web development class at the University of Utah. I plan to use the skills I learn in my position at work as well as use them in my personal projects. My course is helping me build a strong foundation in design, coding, and problem solving.</p>
+        </div>
+        <img class="section-image" src="img/laptop.jpg" alt="A laptop ready for web development work">
+      </div>
+    </section>
+
+    <section class="section section-light" id="hobbies">
+      <div class="container">
+        <p class="eyebrow">Outside of class</p>
+        <h2>Hobbies</h2>
+        <div class="hobbies-list">
+          <p><strong>Reading</strong><br>Discovering new ideas and stories. I love to explore strange new worlds through the pages of a book.</p>
+          <p><strong>Video Games</strong><br>I occasionally play video games to relax and have fun with my friends.</p>
+          <p><strong>Music</strong><br>I love listening to music in Spanish, English, and Arabic.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <p class="eyebrow">Work in progress</p>
+        <h2>My Projects</h2>
+        <p class="section-intro">New projects will appear here as I create them during my course.</p>
+        <div class="project-placeholder">Your first project is coming soon.</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- The footer is a simple place for contact details and copyright text. -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Let’s connect: <a href="mailto:sonofsturm@gmail.com">sonofsturm@gmail.com</a></p>
+      <p>&copy; 2026 Chris Palmer</p>
+    </div>
+  </footer>
+</body>
+</html>
